@@ -8,6 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { ScheduleModule } from 'primeng/schedule';
+import { ProgressBarModule } from 'primeng/progressbar';
 
 import { AppComponent } from './app/app.component';
 import { FooterComponent } from './footer/footer.component';
@@ -69,6 +70,7 @@ const appRoutes: Routes = [
     AngularFontAwesomeModule,
 
     ScheduleModule,
+    ProgressBarModule,
 
     RouterModule,
     RouterModule.forRoot(
