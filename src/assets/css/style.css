@@ -15867,3 +15867,11 @@ body:not(.no-transition) #wrapper,
   -webkit-text-stroke: 0px !important;
   text-shadow: none !important;
 }
+
+.ui-progressbar.ui-progressbar-indeterminate .ui-progressbar-value {
+  background-color: #18a081 !important;
+}
+
+.ui-progressbar.ui-progressbar-indeterminate{
+  background: #79b951 !important;
+}

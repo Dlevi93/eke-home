@@ -18,7 +18,7 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.subscription = this.appService.isLoadingCompleted().subscribe(response => this.progressBarHidden = response);
+    this.subscription = this.appService.stateChangedEmitter().subscribe(state => this.progressBarHidden = state);
   }
 
   ngOnDestroy() {

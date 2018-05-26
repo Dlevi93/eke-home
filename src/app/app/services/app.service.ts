@@ -1,30 +1,33 @@
 import { Injectable } from '@angular/core';
+import { EventEmitter } from '@angular/core';
+
+import { Subject } from 'rxjs/Subject';
+
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+
 import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class AppService {
-  isLatestEventsLoaded: boolean;
-  private isProgressBarHidden: BehaviorSubject<boolean>;
+  private _state: boolean;
+  stateChanged: EventEmitter<boolean> = new EventEmitter();
+  public configObservable = new BehaviorSubject<boolean>(false);
 
   constructor() {
     console.log('App event service loaded');
-    this.isProgressBarHidden = new BehaviorSubject<boolean>(false);
   }
 
-  public latestEventListIsLoaded() {
-    this.isLatestEventsLoaded = true;
-
-    this.checkIfLoadingCompleted();
+  set state(val: boolean) {
+    this._state = val;
+    this.stateChanged.emit(this._state);
+    console.log('state changed:', val);
   }
 
-  checkIfLoadingCompleted() {
-    if (this.isLatestEventsLoaded) {
-      this.isProgressBarHidden = new BehaviorSubject<boolean>(false);
-    }
+  get state(): boolean {
+    return this._state;
   }
 
-  public isLoadingCompleted(): Observable<boolean> {
-    return this.isProgressBarHidden.asObservable();
+  stateChangedEmitter() {
+    return this.stateChanged;
   }
 }
