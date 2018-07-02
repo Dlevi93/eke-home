@@ -20,7 +20,6 @@ export class HomeService {
       return data;
     });
   }
-
 }
 
 export interface CalendarEvent {

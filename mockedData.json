@@ -3,7 +3,7 @@
       "id": 1,
       "title": "EKE-Vandortabor",
       "eventStartDate": "2018.07.28",
-      "eventEndDate": "2018.02.02"
+      "eventEndDate": "2018.08.02"
     },
     {
       "id": 2,
@@ -16,26 +16,24 @@
       "id": 1,
       "title": "EKE-Vandortabor",
       "eventStartDate": "2018.07.28",
-      "eventEndDate": "2018.02.02"
+      "eventEndDate": "2018.08.02"
     },
     {
       "id": 2,
       "title": "EKE-Vándortábor záróünnepség",
-      "eventStartDate": "2018.07.28",
+      "eventStartDate": "2018.08.02",
       "eventEndDate": null
     }
   ],
   "EventList": [{
-      "id": 1,
       "title": "EKE-Vandortabor",
-      "eventStartDate": "2018.07.28",
-      "eventEndDate": "2018.02.02"
+      "start": "2018.07.28",
+      "end": "2018.08.02"
     },
     {
-      "id": 2,
       "title": "EKE-Vándortábor záróünnepség",
-      "eventStartDate": "2018.07.28",
-      "eventEndDate": null
+      "start": "2018.08.02",
+      "end": null
     }
   ],
   "LatestArticleList": [{
@@ -58,7 +56,7 @@
     },
     "mediaElements": [{
       "originalName": "Teszt kep 2",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      "name": "https://cdn.pixabay.com/photo/2017/05/09/21/49/gecko-2299365_960_720.jpg"
     }],
     "dateAdded": "2018.07.02",
     "description": "Teszt leiras 2"
@@ -70,7 +68,7 @@
     },
     "mediaElements": [{
       "originalName": "Teszt kep",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      "name": "https://media.istockphoto.com/photos/plant-growing-picture-id510222832?k=6&m=510222832&s=612x612&w=0&h=Pzjkj2hf9IZiLAiXcgVE1FbCNFVmKzhdcT98dcHSdSk="
     }],
     "dateAdded": "2018.07.02",
     "description": "Teszt leiras"
@@ -82,7 +80,7 @@
     },
     "mediaElements": [{
       "originalName": "Teszt kep 2",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      "name": "https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
     }],
     "dateAdded": "2018.07.02",
     "description": "Teszt leiras 2"
@@ -94,7 +92,7 @@
     },
     "mediaElements": [{
       "originalName": "Teszt kep",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      "name": "https://images.pexels.com/photos/257840/pexels-photo-257840.jpeg?auto=compress&cs=tinysrgb&h=350"
     }],
     "dateAdded": "2018.07.02",
     "description": "Teszt leiras"
@@ -106,7 +104,7 @@
     },
     "mediaElements": [{
       "originalName": "Teszt kep 2",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      "name": "https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg"
     }],
     "dateAdded": "2018.07.02",
     "description": "Teszt leiras 2"
@@ -118,7 +116,7 @@
     },
     "mediaElements": [{
       "originalName": "Teszt kep",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      "name": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR--wdwKyp4bQqRKv1DoImPR_Uaowg3aiYSd1K0luWcfIMg5xOegg"
     }],
     "dateAdded": "2018.07.02",
     "description": "Teszt leiras"
@@ -130,7 +128,7 @@
     },
     "mediaElements": [{
       "originalName": "Teszt kep 2",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      "name": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ23DSUKkCmMPWsJ2YiyCsfeQnImYJlcSAvwkr579ZIjkS_sKudbA"
     }],
     "dateAdded": "2018.07.02",
     "description": "Teszt leiras 2"
@@ -184,42 +182,6 @@
     "description": "Teszt leiras 2"
   }],
   "HomeNews": [{
-    "id": 1,
-    "title": "Teszt cikk",
-    "author": {
-      "name": "Levi"
-    },
-    "mediaElements": [{
-      "originalName": "Teszt kep",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
-    }],
-    "dateAdded": "2018.07.02",
-    "description": "Teszt leiras"
-  }, {
-    "id": 2,
-    "title": "Teszt cikk 2",
-    "author": {
-      "name": "Levi"
-    },
-    "mediaElements": [{
-      "originalName": "Teszt kep 2",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
-    }],
-    "dateAdded": "2018.07.02",
-    "description": "Teszt leiras 2"
-  }, {
-    "id": 1,
-    "title": "Teszt cikk",
-    "author": {
-      "name": "Levi"
-    },
-    "mediaElements": [{
-      "originalName": "Teszt kep",
-      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
-    }],
-    "dateAdded": "2018.07.02",
-    "description": "Teszt leiras"
-  }, {
     "id": 2,
     "title": "Teszt cikk 2",
     "author": {
