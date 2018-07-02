@@ -5632,6 +5632,11 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay {
   height: auto;
 }
 
+.entry-image-camp,
+.entry-image-camp img {
+  height: 145px !important;
+}
+
 .entry-image iframe {
   display: block;
 }
@@ -6106,6 +6111,10 @@ body:not(.device-touch) .entry-link {
 
 .ipost .entry-image img {
   border-radius: 0;
+}
+
+.ipost .entry-image-camp img {
+  object-fit: cover;
 }
 
 .ipost .entry-title h3,
@@ -15872,6 +15881,6 @@ body:not(.no-transition) #wrapper,
   background-color: #18a081 !important;
 }
 
-.ui-progressbar.ui-progressbar-indeterminate{
+.ui-progressbar.ui-progressbar-indeterminate {
   background: #79b951 !important;
 }
