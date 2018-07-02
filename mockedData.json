@@ -1,0 +1,515 @@
+{
+  "LatestElementList": [{
+      "id": 1,
+      "title": "EKE-Vandortabor",
+      "eventStartDate": "2018.07.28",
+      "eventEndDate": "2018.02.02"
+    },
+    {
+      "id": 2,
+      "title": "EKE-Vándortábor záróünnepség",
+      "eventStartDate": "2018.07.28",
+      "eventEndDate": null
+    }
+  ],
+  "FutureEventList": [{
+      "id": 1,
+      "title": "EKE-Vandortabor",
+      "eventStartDate": "2018.07.28",
+      "eventEndDate": "2018.02.02"
+    },
+    {
+      "id": 2,
+      "title": "EKE-Vándortábor záróünnepség",
+      "eventStartDate": "2018.07.28",
+      "eventEndDate": null
+    }
+  ],
+  "EventList": [{
+      "id": 1,
+      "title": "EKE-Vandortabor",
+      "eventStartDate": "2018.07.28",
+      "eventEndDate": "2018.02.02"
+    },
+    {
+      "id": 2,
+      "title": "EKE-Vándortábor záróünnepség",
+      "eventStartDate": "2018.07.28",
+      "eventEndDate": null
+    }
+  ],
+  "LatestArticleList": [{
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }, {
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }, {
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }, {
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }, {
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }, {
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }],
+  "HomeNews": [{
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }, {
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }, {
+    "id": 1,
+    "title": "Teszt cikk",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras"
+  }, {
+    "id": 2,
+    "title": "Teszt cikk 2",
+    "author": {
+      "name": "Levi"
+    },
+    "mediaElements": [{
+      "originalName": "Teszt kep 2",
+      "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+    }],
+    "dateAdded": "2018.07.02",
+    "description": "Teszt leiras 2"
+  }],
+  "WeatherForecast": [{
+    "weather": [{
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 20.0,
+      "temp_min": 20.0,
+      "temp_max": 20.0
+    },
+    "dt": 1530536400.0,
+    "id": 681290.0,
+    "name": "Kolozsvár",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 20.35,
+      "temp_min": 20.0,
+      "temp_max": 21.0
+    },
+    "dt": 1530536400.0,
+    "id": 664460.0,
+    "name": "Várfalva",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 15.66,
+      "temp_min": 15.66,
+      "temp_max": 15.66
+    },
+    "dt": 1530538562.0,
+    "id": 683844.0,
+    "name": "Brassó",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 16.75,
+      "temp_min": 16.75,
+      "temp_max": 16.75
+    },
+    "dt": 1530538844.0,
+    "id": 6942372.0,
+    "name": "Csíkszereda",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 24.5,
+      "temp_min": 24.5,
+      "temp_max": 24.5
+    },
+    "dt": 1530538844.0,
+    "id": 677891.0,
+    "name": "Csíkszépvíz",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 14.91,
+      "temp_min": 14.91,
+      "temp_max": 14.91
+    },
+    "dt": 1530538844.0,
+    "id": 677458.0,
+    "name": "Gyergyószentmiklós",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 20.45,
+      "temp_min": 20.0,
+      "temp_max": 21.0
+    },
+    "dt": 1530536400.0,
+    "id": 665004.0,
+    "name": "Marosvásárhely",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 21.11,
+      "temp_min": 20.0,
+      "temp_max": 22.0
+    },
+    "dt": 1530536400.0,
+    "id": 6697993.0,
+    "name": "Nagybánya",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 22.41,
+      "temp_min": 22.0,
+      "temp_max": 23.0
+    },
+    "dt": 1530536400.0,
+    "id": 671768.0,
+    "name": "Nagyvárad",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 15.66,
+      "temp_min": 15.66,
+      "temp_max": 15.66
+    },
+    "dt": 1530538839.0,
+    "id": 683844.0,
+    "name": "Négyfalu",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 20.91,
+      "temp_min": 20.0,
+      "temp_max": 22.0
+    },
+    "dt": 1530536400.0,
+    "id": 667873.0,
+    "name": "Szatmárnémeti",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 15.66,
+      "temp_min": 15.66,
+      "temp_max": 15.66
+    },
+    "dt": 1530538825.0,
+    "id": 667303.0,
+    "name": "Sepsiszentgyörgy",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 18.25,
+      "temp_min": 18.25,
+      "temp_max": 18.25
+    },
+    "dt": 1530538625.0,
+    "id": 671964.0,
+    "name": "Székelyudvarhely",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 23.66,
+      "temp_min": 23.0,
+      "temp_max": 24.0
+    },
+    "dt": 1530536400.0,
+    "id": 665087.0,
+    "name": "Temesvár",
+    "cod": 200.0
+  }, {
+    "weather": [{
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }],
+    "base": "stations",
+    "main": {
+      "temp": 20.35,
+      "temp_min": 20.0,
+      "temp_max": 21.0
+    },
+    "dt": 1530536400.0,
+    "id": 664460.0,
+    "name": "Torda",
+    "cod": 200.0
+  }]
+}

@@ -4,7 +4,7 @@
       <div class="slider-wrap">
         <div class="slide" data-thumb='./assets/images/magazine/thumb/1.jpg' *ngFor="let article of articles | slice:0:6; let i=index">
           <a href="#">
-            <img src="./assets/{{article.mediaElements[0].originalName}}" alt="">
+            <img src="{{article.mediaElements[0].name}}" alt="">
             <div class="overlay">
               <div class="text-overlay">
                 <div class="text-overlay-title">
