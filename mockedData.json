@@ -12,6 +12,30 @@
       "eventEndDate": null
     }
   ],
+  "GetNewsBySlug": {
+    "id": 1,
+    "title": "Teszt cikk főcíme",
+    "subtitle": "teszt cikk alcíme",
+    "slug": "test-article",
+    "author": {
+      "name": "Deak Levente"
+    },
+    "mediaElements": [{
+        "originalName": "Teszt kep",
+        "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      },
+      {
+        "originalName": "Teszt kep",
+        "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      },
+      {
+        "originalName": "Teszt kep",
+        "name": "https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg"
+      }
+    ],
+    "description": "asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun asigfomnior egm oerimg oerimg oierm goiuerner pgouibn go eurn gopeunr poeun ",
+    "dateAdded": "2018.08.01"
+  },
   "FutureEventList": [{
       "id": 1,
       "title": "EKE-Vandortabor",
@@ -39,6 +63,7 @@
   "LatestArticleList": [{
     "id": 1,
     "title": "Teszt cikk",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -51,6 +76,7 @@
   }, {
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article2",
     "author": {
       "name": "Levi"
     },
@@ -63,6 +89,7 @@
   }, {
     "id": 1,
     "title": "Teszt cikk",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -75,6 +102,7 @@
   }, {
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -87,6 +115,7 @@
   }, {
     "id": 1,
     "title": "Teszt cikk",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -99,6 +128,7 @@
   }, {
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -111,6 +141,7 @@
   }, {
     "id": 1,
     "title": "Teszt cikk",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -123,6 +154,7 @@
   }, {
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -135,6 +167,7 @@
   }, {
     "id": 1,
     "title": "Teszt cikk",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -147,6 +180,7 @@
   }, {
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -159,6 +193,7 @@
   }, {
     "id": 1,
     "title": "Teszt cikk",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -171,6 +206,7 @@
   }, {
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -184,6 +220,7 @@
   "HomeNews": [{
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -196,6 +233,7 @@
   }, {
     "id": 1,
     "title": "Teszt cikk",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },
@@ -208,6 +246,7 @@
   }, {
     "id": 2,
     "title": "Teszt cikk 2",
+    "slug": "test-article",
     "author": {
       "name": "Levi"
     },

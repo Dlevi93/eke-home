@@ -1,0 +1,60 @@
+<div class="row" *ngIf="article != null">
+  <div class="col-sm-10">
+    <div class="fancy-title title-border" style="margin-bottom:20px;">
+      <h2>{{article?.title}}</h2>
+    </div>
+
+  </div>
+  <div class="col-sm-2 fright tright" style="top:5px;">
+    <div>
+      <a href="javascript:void(0);" (click)="share()" class="social-icon inline-block si-small si-light si-rounded si-facebook">
+        <i class="icon-facebook"></i>
+        <i class="icon-facebook"></i>
+      </a>
+      <a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
+        <i class="icon-gplus"></i>
+        <i class="icon-gplus"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6">
+    <h4>{{article?.subtitle}}</h4>
+  </div>
+  <div class="col-sm-6" style="top:-7px;">
+    <ul class="entry-meta clearfix fright tright">
+      <li>
+        <i class="icon-calendar3"></i>{{article?.dateAdded}}</li>
+      <li>
+        <a href="#">
+          <i class="icon-pencil"></i>
+          {{article?.author?.name}}
+        </a>
+      </li>
+      <li>
+        <a>
+          Szöveg méret: &nbsp;
+        </a>
+        <a href="javascript:void(0);" (click)="fontSizeChange(-1)">
+          <i class="icon-minus-sign"></i>
+        </a>
+        <a>| &nbsp;</a>
+        <a href="javascript:void(0);" (click)="fontSizeChange(1)">
+          <i class="icon-plus-sign"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="col-sm-12 row heading-block" *ngIf="article?.mediaElements?.length > 0">
+  <p-galleria [images]="images" panelWidth="845" panelHeight="280" [showCaption]="false"></p-galleria>
+</div>
+
+<div [style.font-size.px]="fontSize">{{article?.description}}</div>
+
+<hr />
+
+<fb-comments></fb-comments>

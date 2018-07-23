@@ -1,25 +1,5 @@
 <div class="col_three_fifth bottommargin-lg">
-  <div class="fslider flex-thumb-grid grid-6" data-speed="400" data-arrows="true" data-thumbs="true" data-easing="easeOutQuad">
-    <div class="flexslider">
-      <div class="slider-wrap">
-        <div class="slide" data-thumb='./assets/images/magazine/thumb/1.jpg' *ngFor="let article of articles | slice:0:6; let i=index">
-          <a href="#">
-            <img src="{{article.mediaElements[0].name}}" alt="">
-            <div class="overlay">
-              <div class="text-overlay">
-                <div class="text-overlay-title">
-                  <h3>{{article.title}}</h3>
-                </div>
-                <div class="text-overlay-meta">
-                  <span>{{article.author.name}}</span>
-                </div>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
+  <p-galleria [images]="images" panelWidth="500" panelHeight="280" (onImageClicked)="getArticle($event.image)"></p-galleria>
 </div>
 
 <div class="col_two_fifth bottommargin-lg col_last">

@@ -15,6 +15,7 @@ export class SidebarComponent implements OnInit, OnDestroy {
   constructor(private sidebarService: SidebarService) { }
 
   ngOnInit() {
+    this.sidebarService.getEvents().subscribe(result => { this.events = result; });
     this.sidebarService.getWeatherForecast().subscribe(result => { this.weather = result; });
   }
 

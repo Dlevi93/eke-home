@@ -9,11 +9,13 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { ScheduleModule } from 'primeng/schedule';
 import { ProgressBarModule } from 'primeng/progressbar';
+import { GalleriaModule } from 'primeng/galleria';
 
 import { AppComponent } from './app/app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
+import { ArticleComponent } from './article/article.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { BemutatoComponent } from './bemutato/bemutato.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -29,8 +31,11 @@ import { HomeNewsComponent } from './home-news/home-news.component';
 import { HomeProspectsComponent } from './home-prospects/home-prospects.component';
 import { HomeCampComponent } from './home-camp/home-camp.component';
 
+import { FacebookModule } from 'ngx-facebook';
+
 const appRoutes: Routes = [
   { path: 'fooldal', component: HomeComponent },
+  { path: 'article/:slug', component: ArticleComponent },
   { path: 'bemutato', component: BemutatoComponent },
   { path: 'tagszervezetek', component: TagszervezetekComponent },
   { path: 'kiadvanyok', component: KiadvanyokComponent },
@@ -47,6 +52,7 @@ const appRoutes: Routes = [
     FooterComponent,
     HeaderComponent,
     HomeComponent,
+    ArticleComponent,
     TopBarComponent,
     BemutatoComponent,
     SidebarComponent,
@@ -69,8 +75,11 @@ const appRoutes: Routes = [
 
     AngularFontAwesomeModule,
 
+    GalleriaModule,
     ScheduleModule,
     ProgressBarModule,
+
+    FacebookModule.forRoot(),
 
     RouterModule,
     RouterModule.forRoot(
